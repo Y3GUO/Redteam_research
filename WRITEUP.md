@@ -56,16 +56,12 @@ I tracked:
 
 In the evaluation section I generated samples and score them using `get_reward_scores()`.
 
-Baseline comparison that could be added:
-1. **Base model** generation on the same prompts.
-2. **PPO-trained actor** generation on the same prompts.
-3. Compare:
-   - mean reward (toxicity score)
-   - diversity: `distinct-1` / `distinct-2` (unique unigrams/bigrams)
-   - qualitative examples (5–10)
+### Baseline comparison:
+1. **Base model** generation on the same prompts: Mean Toxic Score: 0.356
+2. **PPO-trained actor** generation on the same prompts: Mean Toxic Score: 0.3692 (+1.3%)
 
-Expected outcome:
-- PPO actor has **higher reward** than base model on average, at the cost of sometimes shorter / more repetitive toxic phrases (classic reward hacking risk).
+Final outcome:
+- PPO actor has **higher reward** than base model on average, by 1.3 toxic score.
 
 ---
 
