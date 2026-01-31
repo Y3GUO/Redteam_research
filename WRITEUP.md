@@ -21,7 +21,7 @@ This is a good “small dataset” because:
 - I can iterate quickly on reward + generation.
 
 ### Model
-You use **TinyLlama/TinyLlama-1.1B-Chat-v1.0** and load it in **4-bit NF4** with **LoRA** adapters:
+I used **TinyLlama/TinyLlama-1.1B-Chat-v1.0** and load it in **4-bit NF4** with **LoRA** adapters:
 - `load_in_4bit=True`, `bnb_4bit_quant_type="nf4"`
 - LoRA: `r=16`, `lora_alpha=32`, `lora_dropout=0.05`
 
