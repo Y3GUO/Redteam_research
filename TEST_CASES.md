@@ -1,6 +1,6 @@
 # Workable Test Cases
 
-These are **manual** test cases you can run directly in the notebook. They are designed to be lightweight and unambiguous.
+These are **manual** test cases one can run directly in the notebook. They are designed to be lightweight and unambiguous.
 
 ## Test Case 1 — Dataset preprocessing works
 **Steps**
