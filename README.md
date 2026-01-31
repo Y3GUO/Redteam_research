@@ -3,7 +3,7 @@
 This repo contains a runnable notebook PoC for a reward-steered red-team generator.
 
 ## Files
-- `Redteam_sanitized.ipynb` — main runnable notebook (sanitized evaluation triggers)
+- `Redteam_sanitized.ipynb` — main runnable notebook
 - `WRITEUP.md` — approach + evaluation + tradeoffs
 - `TEST_CASES.md` — runnable test cases checklist
 
@@ -11,4 +11,4 @@ This repo contains a runnable notebook PoC for a reward-steered red-team generat
 Open `Redteam_sanitized.ipynb` in Colab and run cells top-to-bottom.
 
 ## Safety scope
-This PoC is intended for **safety evaluation**. It generates **non-hate toxicity** (profanity/harassment style) and avoids protected-group targeting.
+This PoC is intended for **safety evaluation**. It generates **hate-speech** for research purposes ONLY.
